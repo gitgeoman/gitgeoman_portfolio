@@ -36,7 +36,10 @@ function MapComponent() {
   return (
     <div>
       <div>MapComponent</div>
-      <div ref={mapRef_main} style={{ width: "100%", height: "50vh" }} />
+      <div
+        ref={mapRef_main}
+        style={{ width: "97%", height: "50vh", margin: "10px" }}
+      />
     </div>
   );
 }
