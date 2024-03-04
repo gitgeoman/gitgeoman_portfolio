@@ -33,9 +33,6 @@ function About() {
           </div>
 
           <div className="map">
-            <div className="about_header" style={{ marginTop: "20px" }}>
-              MapComponent
-            </div>
             <MapComponent />
           </div>
           <div className="about_header">Education</div>

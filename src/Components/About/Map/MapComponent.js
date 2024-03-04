@@ -41,6 +41,9 @@ function MapComponent() {
         borderBottom: "1px solid lightgray",
       }}
     >
+      <div className="about_header" style={{ marginTop: "20px" }}>
+        Curently located in Warsaw, Poland
+      </div>
       <div
         ref={mapRef_main}
         style={{
