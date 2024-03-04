@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function HomeTop() {
   return (
@@ -12,9 +12,18 @@ function HomeTop() {
             <span style={{ color: "#32a864", fontWeight: "500" }}>GIS </span>DEV
           </div>
           <div>
-            <Link to="About">
+            <NavLink
+              to="/About"
+              className={({ isActive, isPending, isTransitioning }) =>
+                [
+                  isPending ? "pending" : "",
+                  isActive ? "active" : "",
+                  isTransitioning ? "transitioning" : "",
+                ].join(" ")
+              }
+            >
               <span style={{ fontSize: "0.8em" }}>Marek Wyszyński</span>
-            </Link>
+            </NavLink>
           </div>
         </div>
         {/* top right */}
