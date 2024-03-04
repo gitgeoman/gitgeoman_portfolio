@@ -20,7 +20,7 @@ function About() {
               data processing.
             </p>
             <p style={{ textIndent: "20px" }}>
-              My priority is to create a clean code. In my daily I like to use
+              My priority is to create a clean code. In my daily I prefer to use
               open source software; prioritizing it's utilization in every
               project whenever it's possible. I've been designing, building, and
               maintaining architecture and development operations since 2019 and
@@ -33,7 +33,23 @@ function About() {
           </div>
 
           <div className="map">
+            <div className="about_header" style={{ marginTop: "20px" }}>
+              MapComponent
+            </div>
             <MapComponent />
+          </div>
+          <div className="about_header">Education</div>
+          <div className="about_content">
+            <ul>
+              <li>
+                <strong>Master of Science in Engineering</strong> - Military
+                University of Technology 2012 r., Warsaw, Poland,
+              </li>
+              <li>
+                <strong>Doctor of Engineering</strong> - Military University of
+                Technology 2019 r., Warsaw, Poland,
+              </li>
+            </ul>
           </div>
         </div>
 

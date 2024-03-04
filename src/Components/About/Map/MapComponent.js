@@ -34,11 +34,20 @@ function MapComponent() {
   });
 
   return (
-    <div>
-      <div>MapComponent</div>
+    <div
+      style={{
+        marginTop: "10px",
+        borderTop: "1px solid lightgray",
+        borderBottom: "1px solid lightgray",
+      }}
+    >
       <div
         ref={mapRef_main}
-        style={{ width: "97%", height: "50vh", margin: "10px" }}
+        style={{
+          width: "98%",
+          height: "50vh",
+          margin: "10px",
+        }}
       />
     </div>
   );

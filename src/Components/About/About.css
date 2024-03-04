@@ -44,3 +44,34 @@
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .about_container {
+    /* background-color: yellow; */
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about_container_left,
+  .about_container_right {
+    border-right: 0px solid lightgray;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .about_container {
+    /* background-color: yellow; */
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about_container_left,
+  .about_container_right {
+    border-right: 0px solid lightgray;
+  }
+}
