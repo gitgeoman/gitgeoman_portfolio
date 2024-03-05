@@ -3,13 +3,14 @@ import HomeTop from "../Home/HomeTop";
 import HomeBottom from "../Home/HomeBottom";
 import "./About.css";
 import MapComponent from "./Map/MapComponent";
+import Left from "./Left/Left";
 
 function About() {
   return (
     <div className="about_main">
       <HomeTop />
       <div className="about_container">
-        <div className="about_container_left">LEFT</div>
+        <div className="about_container_left"><Left/></div>
 
         <div className="about_container_center">
           <div className="about_header">About</div>
