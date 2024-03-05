@@ -38,3 +38,26 @@
   margin: 10px;
   color: rgb(60, 52, 52);
 }
+
+/* ========================== */
+
+.home_project_container {
+  display: flex;
+  /* background-color: yellow; */
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  width: 70px;
+  height: 350px;
+  background-color: #32a864;
+  margin: 5px;
+  transition: width 0.5s, height 0.5s, margin-left 0.7s;
+  border-radius: 5px;
+}
+
+.project:hover {
+  width: 500px;
+  height: 400px;
+}

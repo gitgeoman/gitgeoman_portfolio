@@ -10,7 +10,9 @@ function About() {
     <div className="about_main">
       <HomeTop />
       <div className="about_container">
-        <div className="about_container_left"><Left/></div>
+        <div className="about_container_left">
+          <Left />
+        </div>
 
         <div className="about_container_center">
           <div className="about_header">About</div>
@@ -45,7 +47,7 @@ function About() {
               </li>
               <li>
                 <strong>Doctor of Engineering</strong> - Military University of
-                Technology 2019 r., Warsaw, Poland,
+                Technology 2019 r., Warsaw, Poland.
               </li>
             </ul>
           </div>
@@ -53,7 +55,7 @@ function About() {
 
         <div className="about_container_right">Right</div>
       </div>
-      <HomeBottom />
+      {/* <HomeBottom /> */}
     </div>
   );
 }
