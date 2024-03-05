@@ -13,6 +13,7 @@ const style = {
   bgcolor: "#32a864",
   color: "#ddd",
   border: "2px solid #32a864",
+  borderRadius: "5px",
   boxShadow: 11,
   p: 4,
 };
@@ -26,7 +27,7 @@ function Project_item({ name, description, stack, link }) {
   return (
     <>
       <div className="project" onClick={handleOpen}></div>
-      <Modal
+      {/* <Modal
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
@@ -41,7 +42,7 @@ function Project_item({ name, description, stack, link }) {
             <p>Stack:{stack} Link: Repo: </p>
           </Typography>
         </Box>
-      </Modal>
+      </Modal> */}
     </>
   );
 }
