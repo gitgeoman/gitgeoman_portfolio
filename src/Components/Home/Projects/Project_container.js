@@ -1,7 +1,7 @@
 import React from "react";
 import Project_item from "./Project_item";
 import { project_list } from "./Project_data";
-
+import world from './img/pexels-pixabay-41949.jpg'
 function Project_container() {
   return (
     <div>
@@ -13,6 +13,7 @@ function Project_container() {
             description={description}
             stack={stack}
             link={link}
+            img={world}
           />
         ))}
       </div>

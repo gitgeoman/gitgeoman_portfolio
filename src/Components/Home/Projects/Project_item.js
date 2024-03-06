@@ -18,7 +18,7 @@ const style = {
   p: 4,
 };
 
-function Project_item({ name, description, stack, link }) {
+function Project_item({ name, description, stack, link, img }) {
   console.log(name, description, stack, link);
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
@@ -26,7 +26,8 @@ function Project_item({ name, description, stack, link }) {
 
   return (
     <>
-      <div className="project" onClick={handleOpen}></div>
+      <div className="project" onClick={handleOpen} style={{ backgroundImage: `url(${img})`, backgroundSize: 'auto 100%', backgroundRepeat: "no-repeat" }}>
+      </div >
       {/* <Modal
         open={open}
         onClose={handleClose}

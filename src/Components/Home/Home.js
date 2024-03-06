@@ -3,7 +3,7 @@ import React from "react";
 import "./Home.css";
 import HomeTop from "./HomeTop";
 import HomeBottom from "./HomeBottom";
-import Project_container from "./Project_container";
+import Project_container from "./Projects/Project_container";
 
 function Home() {
   return (
