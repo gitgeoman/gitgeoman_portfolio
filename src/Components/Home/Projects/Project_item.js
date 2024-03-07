@@ -19,34 +19,16 @@ const style = {
 };
 
 function Project_item({ name, description, stack, link, img }) {
-  console.log(name, description, stack, link);
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
 
   return (
     <>
       <div className="project" onClick={handleOpen}
         style={{ backgroundImage: `url(${img})`, backgroundPosition: 'center', backgroundSize: 'auto 100%', backgroundRepeat: "no-repeat" }}
       >
-        {/* <img src={{ img }} /> */}
       </div >
-      {/* <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            Project: {name}
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            <p>Description: {description}</p>
-            <p>Stack:{stack} Link: Repo: </p>
-          </Typography>
-        </Box>
-      </Modal> */}
+
     </>
   );
 }
