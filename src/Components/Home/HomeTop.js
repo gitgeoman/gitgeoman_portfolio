@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function HomeTop() {
   return (
@@ -14,17 +14,7 @@ function HomeTop() {
               DEV
             </div>
             <div>
-              <div
-                className={({ isActive, isPending, isTransitioning }) =>
-                  [
-                    isPending ? "pending" : "",
-                    isActive ? "active" : "",
-                    isTransitioning ? "transitioning" : "",
-                  ].join(" ")
-                }
-              >
-                <span style={{ fontSize: "0.8em" }}>Marek Wyszyński</span>
-              </div>
+              <span style={{ fontSize: "0.8em" }}>Marek Wyszyński</span>
             </div>
           </div>
         </NavLink>

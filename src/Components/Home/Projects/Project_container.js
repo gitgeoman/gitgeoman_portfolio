@@ -1,15 +1,14 @@
 import React from "react";
-import Project_item from "./Project_item";
-import { project_list } from "./Project_data";
-
+import ProjectItem from "./Project_item";
+import { ProjectList } from "./Project_data";
 
 
 function Project_container() {
   return (
     <div>
       <div className="home_project_container">
-        {project_list.map(({ key, name, description, stack, link, img }) => (
-          <Project_item
+        {ProjectList.map(({ key, name, description, stack, link, img }) => (
+          <ProjectItem
             key={key}
             name={name}
             description={description}

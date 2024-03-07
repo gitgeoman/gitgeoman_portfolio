@@ -1,30 +1,11 @@
 import React from "react";
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import Modal from "@mui/material/Modal";
 
-const style = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: "65vw",
-  height: "65vh",
-  bgcolor: "#32a864",
-  color: "#ddd",
-  border: "2px solid #32a864",
-  borderRadius: "5px",
-  boxShadow: 11,
-  p: 4,
-};
 
-function Project_item({ name, description, stack, link, img }) {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
+function ProjectItem({ name, description, stack, link, img }) {
 
   return (
     <>
-      <div className="project" onClick={handleOpen}
+      <div className="project"
         style={{ backgroundImage: `url(${img})`, backgroundPosition: 'center', backgroundSize: 'auto 100%', backgroundRepeat: "no-repeat" }}
       >
       </div >
@@ -33,4 +14,4 @@ function Project_item({ name, description, stack, link, img }) {
   );
 }
 
-export default Project_item;
+export default ProjectItem;

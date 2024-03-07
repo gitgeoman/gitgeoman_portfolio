@@ -1,15 +1,16 @@
 import world from './img/pexels-pixabay-41949.jpg'
 import hillshade from './img/hillshade.jpg'
 import gazoport from './img/gazoport.png'
+import aws_gis_infra from './img/aws_infra_concept.jpg'
 
-export const project_list = [
-  { stack: ["reactjs"], key: 1, name: "covid_19", description: "", link: "", img: "" },
+export const ProjectList = [
+  { stack: ["reactjs"], key: 1, name: "covid_19", description: "", link: "", img: world },
   {
     stack: ["reactjs"],
     key: "2",
-    name: "amazon_clone",
+    name: "gis_infra",
     description: "",
-    link: "", img: world,
+    link: "", img: aws_gis_infra,
   },
   { stack: ["reactjs"], key: 3, name: "netflix", description: "", link: "", img: "" },
   { stack: ["reactjs"], key: 4, name: "spotify", description: "", link: "", img: "" },
