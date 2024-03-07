@@ -26,7 +26,10 @@ function Project_item({ name, description, stack, link, img }) {
 
   return (
     <>
-      <div className="project" onClick={handleOpen} style={{ backgroundImage: `url(${img})`, backgroundSize: 'auto 100%', backgroundRepeat: "no-repeat" }}>
+      <div className="project" onClick={handleOpen}
+        style={{ backgroundImage: `url(${img})`, backgroundPosition: 'center', backgroundSize: 'auto 100%', backgroundRepeat: "no-repeat" }}
+      >
+        {/* <img src={{ img }} /> */}
       </div >
       {/* <Modal
         open={open}
