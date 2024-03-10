@@ -1,12 +1,12 @@
 import React from "react";
-import ProjectItem from "./Project_item";
-import { ProjectList } from "./Project_data";
+import ProjectItem from "./ProjectItem";
+import { ProjectList } from "./ProjectData";
 
 
-function Project_container() {
+function ProjectContainer() {
   return (
     <div>
-      <div className="home_project_container">
+      <div className="ProjectContainer">
         {ProjectList.map(({ key, name, description, stack, link, img }) => (
           <ProjectItem
             key={key}
@@ -22,4 +22,4 @@ function Project_container() {
   );
 }
 
-export default Project_container;
+export default ProjectContainer;
