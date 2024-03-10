@@ -6,7 +6,7 @@ import { ProjectList } from "./ProjectData";
 function ProjectContainer() {
   return (
     <div>
-      <div className="ProjectContainer">
+      <div className="projectContainer">
         {ProjectList.map(({ key, name, description, stack, link, img }) => (
           <ProjectItem
             key={key}
