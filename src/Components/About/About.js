@@ -4,6 +4,7 @@ import HomeBottom from "../Home/HomeBottom";
 import "./About.css";
 import MapComponent from "./Map/MapComponent";
 import Left from "./Left/Left";
+import Right from "./Right/Right";
 
 function About() {
   return (
@@ -53,7 +54,7 @@ function About() {
           </div>
         </div>
 
-        <div className="about_container_right">Right</div>
+        <div className="about_container_right"><Right /></div>
       </div>
       {/* <HomeBottom /> */}
     </div>
