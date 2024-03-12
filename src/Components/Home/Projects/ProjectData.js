@@ -2,7 +2,7 @@ import world from './img/pexels-pixabay-41949.jpg'
 import hillshade from './img/hillshade.jpg'
 import gazoport from './img/gazoport.png'
 import aws_gis_infra from './img/aws_infra_concept.jpg'
-
+import terrain_passability from './img/terrain_passability2.jpg'
 export const ProjectList = [
   { stack: ["reactjs"], key: 1, name: "covid_19", description: "", link: "", img: world },
   {
@@ -20,7 +20,7 @@ export const ProjectList = [
     key: 6,
     name: "Military terrain passability ",
     description: "",
-    link: "", img: "",
+    link: "", img: terrain_passability,
   },
   {
     stack: ["reactjs"],
