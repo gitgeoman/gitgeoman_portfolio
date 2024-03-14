@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 function HomeTop() {
   return (
     <div>
@@ -13,20 +15,20 @@ function HomeTop() {
               <span style={{ color: "#32a864", fontWeight: "500" }}>GIS </span>
               DEV
             </div>
-            <div>
+            <div className='green_hover'>
               <span style={{ fontSize: "0.8em" }}>Marek Wyszyński</span>
             </div>
           </div>
         </NavLink>
         {/* top right */}
-        <div className="home_text_full_stack">
+        <div className="home_text_full_stack green_hover">
           <a href="https://github.com/gitgeoman">
             FULL STACK WEB & DATA DEVELOPER{" "}
-            <span style={{ color: "#32a864" }}>&#8599;</span>
+            <GitHubIcon />
           </a>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 

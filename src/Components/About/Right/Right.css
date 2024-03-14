@@ -74,3 +74,7 @@
     margin: 5px;
   }
 }
+
+.right_links:hover {
+  color: #32a864
+}

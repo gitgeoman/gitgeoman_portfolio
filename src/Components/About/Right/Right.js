@@ -63,14 +63,14 @@ function Right() {
         <div className="right_content">
           <ul>
             <li>
-              Methodology for designating mobile points of equipment distribution in military operations
+              <a className='right_links' href='https://ieeexplore.ieee.org/document/10171201'>Methodology for designating mobile points of equipment distribution in military operations</a>
             </li>
-            <li>The Assessment of COVID-19 Vulnerability Risk for Crisis Management</li>
-            <li>The use of unmanned aerial vehicles (drones) to determine the shoreline of natural watercourses</li>
-            <li>Automation of the terrain assessment classification due to passability for the needs of crisis managment</li>
+            <a className='right_links' href='https://www.mdpi.com/2076-3417/12/8/4090'><li >The Assessment of COVID-19 Vulnerability Risk for Crisis Management</li></a>
+            <a className='right_links' href='https://www.itp.edu.pl/old/wydawnictwo/journal/35_2017_X_XII/Wilkowski%20i%20in.pdf' ><li>The use of unmanned aerial vehicles (drones) to determine the shoreline of natural watercourses</li></a>
+            <a className='right_links' href='https://www.researchgate.net/publication/312397146_AUTOMATION_OF_THE_TERRAIN_ASSESSMENT_CLASSIFICATION_DUE_TO_PASSABILITY_FOR_THE_NEEDS_OF_CRISIS_MANAGMENT'><li>Automation of the terrain assessment classification due to passability for the needs of crisis managment</li></a>
           </ul>
         </div>
-      </div>
+      </div >
     </>
   );
 }

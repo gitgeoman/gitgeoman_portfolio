@@ -48,6 +48,9 @@
   align-items: center;
 }
 
+.green_hover:hover {
+  color: #32a864
+}
 
 
 
