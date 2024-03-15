@@ -25,7 +25,7 @@ function Right() {
           </div>
         </div>
         <div className="right_element">
-          <div className="right_header">Software languages, packages & engines</div>
+          <div className="right_header">Software, languages, packages & engines</div>
           <br />
           <div className="right_content">
             <ul>
