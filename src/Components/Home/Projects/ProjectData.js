@@ -4,35 +4,35 @@ import gazoport from './img/gazoport.png'
 import aws_gis_infra from './img/aws_infra_concept.jpg'
 import terrain_passability from './img/terrain_passability2.jpg'
 export const ProjectList = [
-  { stack: ["reactjs"], key: 1, name: "covid_19", description: "", link: "", img: world },
+  { stack: ["reactjs"], key: 1, name: "Covid_19 Tracker", description: "", link: "", img: world },
   {
     stack: ["reactjs"],
     key: "2",
-    name: "gis_infra",
+    name: "GIS Infra",
     description: "",
     link: "", img: aws_gis_infra,
   },
-  { stack: ["reactjs"], key: 3, name: "netflix", description: "", link: "", img: "" },
-  { stack: ["reactjs"], key: 4, name: "spotify", description: "", link: "", img: "" },
-  { stack: ["reactjs"], key: 5, name: "tik_tok", description: "", link: "", img: "" },
+  { stack: ["reactjs"], key: 3, name: "Netflix Clone", description: "", link: "", img: "" },
+  { stack: ["reactjs"], key: 4, name: "Spotify Clone", description: "", link: "", img: "" },
+  { stack: ["reactjs"], key: 5, name: "TikTok Clone", description: "", link: "", img: "" },
   {
     stack: ["reactjs"],
     key: 6,
-    name: "Military terrain passability ",
+    name: "Military Terrain Passability ",
     description: "",
     link: "", img: terrain_passability,
   },
   {
     stack: ["reactjs"],
     key: 7,
-    name: "AI river project",
+    name: "AI River Project",
     description: "",
     link: "", img: "",
   },
   {
     stack: ["reactjs"],
     key: 8,
-    name: "Explosive simulator",
+    name: "IED Simulator",
     description: "Simulator that models the vulnerability risk of critical infrastruction elements for explosive chargeSimulator that models the vulnerability risk of critical infrastructure elements for explosive charge",
     link: "", img: gazoport,
   },
@@ -53,7 +53,7 @@ export const ProjectList = [
   {
     stack: ["reactjs"],
     key: 11,
-    name: "ortophotomap",
+    name: "oOrtophotomap",
     description: "",
     link: "", img: "",
   },
