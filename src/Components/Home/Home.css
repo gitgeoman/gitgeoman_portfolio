@@ -1,0 +1,66 @@
+.home_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  /* background-color: yellow; */
+}
+
+.home_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: blue; */
+}
+
+.home_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.home_text_name {
+  text-align: left;
+  margin: 10px;
+  color: rgb(59, 58, 59);
+  font-size: 1.12em;
+}
+
+.home_text_full_stack {
+  text-align: right;
+  margin: 10px;
+  color: rgb(136, 130, 130);
+}
+
+.home_text_email {
+  font-size: 13px;
+  text-align: right;
+  margin: 10px;
+  color: rgb(60, 52, 52);
+}
+
+/* ========================== */
+
+.projectContainer {
+  display: flex;
+  /* background-color: yellow; */
+  justify-content: center;
+  align-items: center;
+}
+
+.green_hover:hover {
+  color: #32a864
+}
+
+
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {}
+
+@media only screen and (max-width: 699px) {
+
+  .projectContainer {
+    flex-wrap: wrap;
+  }
+}

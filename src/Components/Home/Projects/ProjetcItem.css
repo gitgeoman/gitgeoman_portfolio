@@ -1,0 +1,17 @@
+.ProjectItem {
+    width: 70px;
+    height: 350px;
+    /* background-color: #32a864; */
+    margin: 5px;
+    transition: width 0.5s, height 0.5s, margin-left 0.7s;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.47);
+    box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.47);
+  
+  }
+  
+  .ProjectItem:hover {
+    width: 650px;
+    height: 400px;
+  }
