@@ -8,7 +8,7 @@ export const ProjectList = [
   {
     stack: ["reactjs"],
     key: "2",
-    name: "GIS Infra",
+    name: "GIS Infra with AWS",
     description: "",
     link: "", img: aws_gis_infra,
   },
@@ -18,7 +18,7 @@ export const ProjectList = [
   {
     stack: ["reactjs"],
     key: 6,
-    name: "Military Terrain Passability ",
+    name: "Military Terrain Passability",
     description: "",
     link: "", img: terrain_passability,
   },
@@ -46,14 +46,14 @@ export const ProjectList = [
   {
     stack: ["reactjs"],
     key: 10,
-    name: "hillshader",
+    name: "Hillshader",
     description: "",
     link: "", img: hillshade,
   },
   {
     stack: ["reactjs"],
     key: 11,
-    name: "oOrtophotomap",
+    name: "Ortophotomap",
     description: "",
     link: "", img: "",
   },
