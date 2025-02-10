@@ -16,6 +16,9 @@ const router = createBrowserRouter([
     element: <About />,
     errorElement: <h1>NOT WORKING</h1>,
   },
+  {
+    basename: "/gitgeoman.github.io"
+  }
 ]);
 
 function App() {
