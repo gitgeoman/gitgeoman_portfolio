@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gitgeoman_portfolio/static/css/main.2a412f1e.css",
-    "main.js": "/gitgeoman_portfolio/static/js/main.f77ca3eb.js",
+    "main.js": "/gitgeoman_portfolio/static/js/main.077b6a95.js",
     "static/js/453.8ef8066e.chunk.js": "/gitgeoman_portfolio/static/js/453.8ef8066e.chunk.js",
     "static/media/navigation_img.png": "/gitgeoman_portfolio/static/media/navigation_img.9ad263fc81dabb5a12ad.png",
     "static/media/pexels-pixabay-41949.jpg": "/gitgeoman_portfolio/static/media/pexels-pixabay-41949.99a429376996c66508e8.jpg",
@@ -15,11 +15,11 @@
     "static/media/geo_infrastructure.png": "/gitgeoman_portfolio/static/media/geo_infrastructure.de500e17125568f6d907.png",
     "index.html": "/gitgeoman_portfolio/index.html",
     "main.2a412f1e.css.map": "/gitgeoman_portfolio/static/css/main.2a412f1e.css.map",
-    "main.f77ca3eb.js.map": "/gitgeoman_portfolio/static/js/main.f77ca3eb.js.map",
+    "main.077b6a95.js.map": "/gitgeoman_portfolio/static/js/main.077b6a95.js.map",
     "453.8ef8066e.chunk.js.map": "/gitgeoman_portfolio/static/js/453.8ef8066e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a412f1e.css",
-    "static/js/main.f77ca3eb.js"
+    "static/js/main.077b6a95.js"
   ]
 }
