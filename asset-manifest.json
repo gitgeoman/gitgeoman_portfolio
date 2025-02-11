@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/gitgeoman_portfolio/static/css/main.2a412f1e.css",
+    "main.js": "/gitgeoman_portfolio/static/js/main.f77ca3eb.js",
+    "static/js/453.8ef8066e.chunk.js": "/gitgeoman_portfolio/static/js/453.8ef8066e.chunk.js",
+    "static/media/navigation_img.png": "/gitgeoman_portfolio/static/media/navigation_img.9ad263fc81dabb5a12ad.png",
+    "static/media/pexels-pixabay-41949.jpg": "/gitgeoman_portfolio/static/media/pexels-pixabay-41949.99a429376996c66508e8.jpg",
+    "static/media/ahp_covid.png": "/gitgeoman_portfolio/static/media/ahp_covid.a68f6be60d51ef43b098.png",
+    "static/media/hillshade.jpg": "/gitgeoman_portfolio/static/media/hillshade.d99692c78b829e7a5388.jpg",
+    "static/media/gazoport.png": "/gitgeoman_portfolio/static/media/gazoport.15cc55515f068f7b0366.png",
+    "static/media/solaris_ai_segmentation.png": "/gitgeoman_portfolio/static/media/solaris_ai_segmentation.42f55e61f6880e5f0b23.png",
+    "static/media/aws_infra_concept.jpg": "/gitgeoman_portfolio/static/media/aws_infra_concept.226b8645fedd855bc7c6.jpg",
+    "static/media/terrain_passability2.jpg": "/gitgeoman_portfolio/static/media/terrain_passability2.8b1c53447e152fa42a03.jpg",
+    "static/media/weather.png": "/gitgeoman_portfolio/static/media/weather.110c05687bbe54771103.png",
+    "static/media/geo_infrastructure.png": "/gitgeoman_portfolio/static/media/geo_infrastructure.de500e17125568f6d907.png",
+    "index.html": "/gitgeoman_portfolio/index.html",
+    "main.2a412f1e.css.map": "/gitgeoman_portfolio/static/css/main.2a412f1e.css.map",
+    "main.f77ca3eb.js.map": "/gitgeoman_portfolio/static/js/main.f77ca3eb.js.map",
+    "453.8ef8066e.chunk.js.map": "/gitgeoman_portfolio/static/js/453.8ef8066e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a412f1e.css",
+    "static/js/main.f77ca3eb.js"
+  ]
+}

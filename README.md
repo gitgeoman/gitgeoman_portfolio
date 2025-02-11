@@ -1,2 +1,0 @@
-# gitgeoman.github.io
- 
